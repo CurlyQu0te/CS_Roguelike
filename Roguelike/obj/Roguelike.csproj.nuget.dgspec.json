@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\orozc\\source\\repos\\CurlyQu0te\\CS_Roguelike\\Roguelike\\Roguelike.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\orozc\\source\\repos\\CurlyQu0te\\CS_Roguelike\\Roguelike\\Roguelike.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\orozc\\source\\repos\\CurlyQu0te\\CS_Roguelike\\Roguelike\\Roguelike.csproj",
+        "projectName": "Roguelike",
+        "projectPath": "C:\\Users\\orozc\\source\\repos\\CurlyQu0te\\CS_Roguelike\\Roguelike\\Roguelike.csproj",
+        "packagesPath": "C:\\Users\\orozc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\orozc\\source\\repos\\CurlyQu0te\\CS_Roguelike\\Roguelike\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\orozc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Win32.SystemEvents": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "RLNET": {
+              "target": "Package",
+              "version": "[1.0.5.1, )"
+            },
+            "RogueSharp": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
