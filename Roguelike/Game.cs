@@ -41,16 +41,16 @@ namespace RogueLike
 
     private static void OnRootConsoleUpdate( object sender, UpdateEventArgs e )
     {
-      _mapConsole.SetBackColor( 0, 0, _mapWidth, _mapHeight, RLColor.Black );
+      _mapConsole.SetBackColor( 0, 0, _mapWidth, _mapHeight, Colors.FloorBackground );
       _mapConsole.Print( 1, 1, "Map Console", RLColor.White );
 
-      _messageConsole.SetBackColor( 0, 0, _messageWidth, _messageHeight, RLColor.Gray );
+      _messageConsole.SetBackColor( 0, 0, _messageWidth, _messageHeight, Swatch.DbDarkWater );
       _messageConsole.Print( 1, 1, "Message Console", RLColor.White );
 
-      _statusConsole.SetBackColor( 0, 0, _statusWidth, _statusHeight, RLColor.Brown );
+      _statusConsole.SetBackColor( 0, 0, _statusWidth, _statusHeight, Swatch.DbDarkStone );
       _statusConsole.Print( 1, 1, "Status Console", RLColor.White );
 
-      _inventoryConsole.SetBackColor( 0, 0, _inventoryWidth, _inventoryHeight, RLColor.Cyan );
+      _inventoryConsole.SetBackColor( 0, 0, _inventoryWidth, _inventoryHeight, Swatch.DbDarkWood );
       _inventoryConsole.Print( 1, 1, "Inventory Console", RLColor.White );
     }
 
